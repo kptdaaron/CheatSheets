@@ -1,1 +1,2 @@
 npm init -y
+npm install express bcryptjs jsonwebtoken config express-validator mongoose

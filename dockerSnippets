@@ -1,0 +1,8 @@
+sudo apt-get remove docker docker-engine docker.io              // remove existing docker installation
+sudo apt install docker.io                                      // install latest docker
+sudo systemctl start docker					// add docker to system startup
+sudo systemctl enable docker					// 
+docker --version		
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add – // Add docker's GPG Key
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu  $(lsb_release -cs)  stable" 	// install the docker repository
+

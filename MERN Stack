@@ -1,0 +1,6 @@
+npx create-react-app .
+npm init -y
+npm install express bcryptjs jsonwebtoken config express-validator mongoose gravatar
+npm install -D nodemon concurrently
+npm run server
+npm i axios react-router-dom redux react-redux redux-thunk redux-devtools-extensions
